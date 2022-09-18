@@ -137,3 +137,21 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 350px) {
+  .todo-app {
+    width: 300px;
+    min-height: 400px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .todo-input {
+    width: 182px;
+  }
+}
